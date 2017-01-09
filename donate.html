@@ -10,6 +10,9 @@
     <!-- Bootstrap -->
     <link href="assets/bootstrap-3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
 
+   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/bootstrap-3.3.7/docs/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -23,42 +26,58 @@
     <!-- Link Hannah's stylesheet -->
     <link rel="stylesheet" type="text/css" href="assets/stylesheets/style.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Custom styles for carousel template -->
+    <link href="assets/bootstrap-3.3.7/docs/examples/carousel/carousel.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/style.css">
   </head>
 
   <body>
 
-  	<div class="container">
+    <div class="navbar-wrapper">
+      <div class="container">
 
-  		<!-- navigation by hannah -->
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html"><span class="fa fa-power-off"></span>&nbspReboot Education</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="active"><a href="donate.html">Donate</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
 
-  		<nav class="navbar navbar-default">
-		  <div class="container-fluid">
-		    <!-- Brand and toggle get grouped for better mobile display -->
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		      <span class="mediaLinks"><a class="navbar-brand fa fa-power-off" href="index.html"></a></span>
-		    </div>
-
-		    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		      <ul class="nav navbar-nav">
-		        <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
-		        <li><a href="about.html">About</a></li>
-		        <li class="active"><a href="donate.html">Donate</a></li>
-		      </ul>
-		    </div><!-- /.navbar-collapse -->
-		  </div><!-- /.container-fluid -->
-		</nav>
-
-    <h1>Donate to Reboot Education</h1>
-
+      </div>
     </div>
 
 
+    <!-- photo -->
+    <div class="row">
+      <img class="img-responsive banner" src="https://static.pexels.com/photos/7096/people-woman-coffee-meeting.jpg" alt="Generic placeholder image">
+    </div>
+
+    <!-- featurette and donate button -->
+    <div class="container">
+      <div class="row featurette">
+            <h2 class="featurette-heading">Donate today for change. <span class="text-muted">See results.</span></h2>
+            <p class="leade">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+      <div class="row">
+          <div class="col-md-2 col-md-offset-5 col-xs-8 col-xs-offset-2">
+            <a class="btn btn-lg btn-primary center-block" href="donate.html" id="singlebutton" role="button">Donate today</a>
+          </div>
+      </div>
+    </div>
   </body>
 </html>

@@ -1,7 +1,13 @@
+
 .carousel-inner > .item > img {
 	height: auto;
 }
 
 #simple-font {
 	font-family: sans-serif;
+}
+
+.banner {
+	max-height: 400px;
+	width: 100%;
 }
