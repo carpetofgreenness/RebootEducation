@@ -5,3 +5,11 @@
 #simple-font {
 	font-family: sans-serif;
 }
+
+.banner {
+	height: 300px;
+	min-width: 100%;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
