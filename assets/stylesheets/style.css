@@ -11,3 +11,11 @@
 	max-height: 400px;
 	width: 100%;
 }
+
+.featurette-heading {
+	text-align: center;
+}
+
+body {
+	background-color: lightgray;
+}
