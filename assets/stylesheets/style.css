@@ -1,18 +1,8 @@
-.carousel-inner > .item > img {
-	height: auto;
-}
-
 #simple-font {
 	font-family: sans-serif;
 }
 
 .banner {
-	height: 300px;
-	min-width: 100%;
-	max-width: 100%;
-	box-sizing: border-box;
-}
-
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    width: 100%;
+	max-height: 400px;
+	width: 100%;
 }
