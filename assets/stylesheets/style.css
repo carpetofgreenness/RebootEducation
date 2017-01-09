@@ -1,9 +1,3 @@
-
-
-.simple-font {
-	font-family: sans-serif;
-}
-
 .banner {
 	max-height: 400px;
 	width: 100%;
@@ -15,4 +9,14 @@
 
 body {
 	background-color: lightgray;
+	font-family: "Raleway";
+}
+
+footer {
+	text-align: center;
+	margin-top: 3em;
+}
+
+#singlebutton {
+	margin-top: 2em;
 }
