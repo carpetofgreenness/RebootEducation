@@ -1,0 +1,50 @@
+/*--------Base Styles------*/
+
+body {
+	font-family:"Raleway";	
+	background-color:orange;
+	margin:0 auto;
+}
+
+img {
+	margin:0 auto;
+	width:100%;
+	border-radius: 20px;
+	border:3px solid;
+}
+
+p {
+	padding:10px;
+	text-align: center;
+	margin:0 auto;
+}
+
+footer {
+	text-align: center;
+	position:absolute;
+	right: 0;
+  	bottom: 0;
+  	left: 0;
+}
+
+h1, 
+h2 {
+	text-align: center;
+}
+
+/*-------Media Queries--------*/
+
+@media all and (min-width:1200px) {
+	p {
+	  width:70%;
+}
+	h1{
+	  width:70%;
+	  margin:0 auto;	
+	}
+
+@media all and (min-width: 992px) {
+	p {
+		width:70%;
+	}
+}
